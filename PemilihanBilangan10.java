@@ -8,12 +8,8 @@ public class PemilihanBilangan10 {
         System.out.print("masukan sebuah angka: ");
         int angka = sc.nextInt();
 
-        if (angka % 2 == 0 )
-        {
-            System.out.print("angka " + angka + " termasuk bilangan genap");
-        }else
-        {
-            System.out.println("angka " + angka + " termasuk bilangan ganjil");
-        }
+        String hasil = (angka % 2 == 0 ) ? "angka " + angka + " termasuk bilangan genap" : "angka " + angka + " termasuk bilangan ganjil";
+        System.out.print(hasil);
     }
 }
+
